@@ -2,6 +2,11 @@
 
 A sample project that demonstrates how to create a REST API in HCL Domino.
 
+- `example.lib.plugin` - a plugin that contains external libraries (e.g. GSON)
+- `example.rest.plugin` - a plugin with REST API
+- `example.rest.feature` - a feature that includes both plugins
+- `example.rest.updatesite`- an update site project for packaging feature and plugins
+
 ## Installation
 
 - install Domino & Notes client
