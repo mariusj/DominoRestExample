@@ -1,4 +1,8 @@
-# Installation
+# DominoRestExample
+
+A sample project that demonstrates how to create a REST API in HCL Domino.
+
+## Installation
 
 - install Domino & Notes client
 - on the Domino server create the `UpdateSite.nsf` database based on the advanced template `EclipseUpdateSite`
@@ -20,7 +24,7 @@
   - make the `Domino` Target Platform active by selecting a checkbox near it
 
 
-# Creating new plugins in the Eclipse IDE
+## Creating new plugins in the Eclipse IDE
 
 Steps bellow are for creating new plugins from the scratch. These are given for reference only and are not required for importing existing plugins.
 
@@ -57,7 +61,7 @@ Steps bellow are for creating new plugins from the scratch. These are given for 
 - create a new Category and add a feature created earlier
 - build an update site by using `Build All` button
 
-# Importing sample plugins into the Eclipse IDE
+## Importing sample plugins into the Eclipse IDE
 
 The steps here are for importing sample plugins provided by me.
 - in the Eclipse select File/Import/General/Existing projects into Workspace
@@ -66,7 +70,7 @@ The steps here are for importing sample plugins provided by me.
 - open `site.xml`
 - click `Build All` to package the plugins and feature into Update Site
 
-# Enabling the API on the Domino server
+## Enabling the API on the Domino server
 - open server configuration in Domino Administrator client
 - on the `Basics` tab make sure that the option `Load Internet configuration from Server/Internet sites documents` is set to `enabled`
 - select the site from the `Web/Internet sites` tree
@@ -75,7 +79,7 @@ The steps here are for importing sample plugins provided by me.
 - enter `example.rest`in the `New keyword` section and click OK. This name is taken from the `plugin.xml` in the `example.rest.plugin`.
 - restart the Domino
 
-# Installing a new version of plugins into Domino
+## Installing a new version of plugins into Domino
 
 - open the `UpdateSite.nsf` database in Notes client
 - click `Import Local Update Site` and select the `site.xml` file that is located in the `example.rest.updatesite` folder
