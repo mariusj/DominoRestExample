@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: External Libraries
+Bundle-SymbolicName: example.lib.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: example.lib.plugin.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: example.lib.plugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/gson-2.8.6.jar,
+ .
+Export-Package: com.google.gson,
+ com.google.gson.annotations,
+ com.google.gson.internal,
+ com.google.gson.internal.bind,
+ com.google.gson.internal.bind.util,
+ com.google.gson.internal.reflect,
+ com.google.gson.reflect,
+ com.google.gson.stream

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/example.rest.feature_1.0.0.202103011130.jar" id="example.rest.feature" version="1.0.0.202103011130">
+      <category name="REST"/>
+   </feature>
+   <category-def name="REST" label="REST"/>
+</site>

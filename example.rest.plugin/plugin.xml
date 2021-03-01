@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+	<extension point="com.ibm.domino.das.service">
+		<serviceResources
+        	class="example.rest.app.RESTApp"
+            name="example.rest"
+            path="example"
+            version="0.0.1">
+        </serviceResources>         
+	</extension>
+                                                                      
+
+</plugin>

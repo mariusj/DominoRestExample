@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example REST Plugin
+Bundle-SymbolicName: example.rest.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: example.rest.plugin.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ com.ibm.wink,
+ com.ibm.domino.osgi.core,
+ example.lib.plugin;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: example.rest.plugin
+Bundle-ActivationPolicy: lazy
+Export-Package: example.rest.app
+Bundle-ClassPath: .
